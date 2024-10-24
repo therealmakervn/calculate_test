@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy Tính Đơn Giản</title>
+</head>
+<body>
+    <h1>Máy Tính Đơn Giản</h1>
+    <form method="post">
+        <input type="number" name="num1" placeholder="Số thứ nhất" required>
+        <input type="number" name="num2" placeholder="Số thứ hai" required>
+        <select name="operation">
+            <option value="add">Cộng</option>
+            <option value="subtract">Trừ</option>
+            <option value="multiply">Nhân</option>
+            <option value="divide">Chia</option>
+        </select>
+        <button type="submit">Tính</button>
+    </form>
+    <h2>Kết quả: {{ result }}</h2>
+</body>
+</html>
